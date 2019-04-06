@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Demo CRUD,Chrome 72.0.3626.121,,2019-03-20 15:07:04,2019-03-20 15:07:31,26.868s,PASSED
+,,,,,,
+Test Cases/insert,Chrome 72.0.3626.121,,2019-03-20 15:07:05,2019-03-20 15:07:19,14.214s,PASSED
+"openBrowser(""http://localhost/sekolah/siswa.html"")",Chrome 72.0.3626.121,,2019-03-20 15:07:05,2019-03-20 15:07:10,4.764s,PASSED
+"data = findTestData(""datasiswa"")",Chrome 72.0.3626.121,,2019-03-20 15:07:10,2019-03-20 15:07:11,0.916s,PASSED
+"baseUrl = ""http://localhost/sekolah/siswa.html""",Chrome 72.0.3626.121,,2019-03-20 15:07:11,2019-03-20 15:07:11,0.001s,PASSED
+driver = getWebDriver(),Chrome 72.0.3626.121,,2019-03-20 15:07:11,2019-03-20 15:07:11,0.010s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 72.0.3626.121,,2019-03-20 15:07:11,2019-03-20 15:07:11,0.183s,PASSED
+"takeScreenshot(""C:\Program Files\Katalon\screenshoot\StartInsert.jpg"")",Chrome 72.0.3626.121,,2019-03-20 15:07:11,2019-03-20 15:07:11,0.323s,PASSED
+for (def index : (0..(data.getRowNumbers() - 1))),Chrome 72.0.3626.121,,2019-03-20 15:07:11,2019-03-20 15:07:18,7.018s,PASSED
+"takeScreenshot(""C:\Program Files\Katalon\screenshoot\FinishInsert.jpg"")",Chrome 72.0.3626.121,,2019-03-20 15:07:18,2019-03-20 15:07:19,0.319s,PASSED
+,,,,,,
+Test Cases/update,Chrome 72.0.3626.121,,2019-03-20 15:07:19,2019-03-20 15:07:26,6.914s,PASSED
+"openBrowser(""http://localhost/sekolah/siswa.html"")",Chrome 72.0.3626.121,,2019-03-20 15:07:19,2019-03-20 15:07:23,3.598s,PASSED
+driver = getWebDriver(),Chrome 72.0.3626.121,,2019-03-20 15:07:23,2019-03-20 15:07:23,0.001s,PASSED
+"baseUrl = ""http://localhost/sekolah/siswa.html""",Chrome 72.0.3626.121,,2019-03-20 15:07:23,2019-03-20 15:07:23,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 72.0.3626.121,,2019-03-20 15:07:23,2019-03-20 15:07:23,0.021s,PASSED
+"selenium.open(""http://localhost/sekolah/siswa.html"")",Chrome 72.0.3626.121,,2019-03-20 15:07:23,2019-03-20 15:07:23,0.084s,PASSED
+"selenium.click(""link=Edit"")",Chrome 72.0.3626.121,,2019-03-20 15:07:23,2019-03-20 15:07:23,0.169s,PASSED
+"selenium.click(""name=nama"")",Chrome 72.0.3626.121,,2019-03-20 15:07:23,2019-03-20 15:07:23,0.100s,PASSED
+"selenium.type(""name=nama"", ""Fikri"")",Chrome 72.0.3626.121,,2019-03-20 15:07:23,2019-03-20 15:07:23,0.068s,PASSED
+"selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Jl.G'])[1]/following::button[1]"")",Chrome 72.0.3626.121,,2019-03-20 15:07:23,2019-03-20 15:07:23,0.174s,PASSED
+"selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Jl.F'])[1]/following::a[1]"")",Chrome 72.0.3626.121,,2019-03-20 15:07:23,2019-03-20 15:07:24,0.142s,PASSED
+"selenium.click(""name=nama"")",Chrome 72.0.3626.121,,2019-03-20 15:07:24,2019-03-20 15:07:24,0.090s,PASSED
+"selenium.type(""name=nama"", ""Andre"")",Chrome 72.0.3626.121,,2019-03-20 15:07:24,2019-03-20 15:07:24,0.118s,PASSED
+"selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Jl.F'])[1]/following::button[1]"")",Chrome 72.0.3626.121,,2019-03-20 15:07:24,2019-03-20 15:07:24,0.238s,PASSED
+"selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Jl.E'])[1]/following::a[1]"")",Chrome 72.0.3626.121,,2019-03-20 15:07:24,2019-03-20 15:07:24,0.279s,PASSED
+"selenium.click(""name=nama"")",Chrome 72.0.3626.121,,2019-03-20 15:07:24,2019-03-20 15:07:24,0.162s,PASSED
+"selenium.type(""name=nama"", ""Andre"")",Chrome 72.0.3626.121,,2019-03-20 15:07:24,2019-03-20 15:07:25,0.152s,PASSED
+"selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Jl.E'])[1]/following::button[1]"")",Chrome 72.0.3626.121,,2019-03-20 15:07:25,2019-03-20 15:07:25,0.243s,PASSED
+"selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Jl.D'])[1]/following::a[1]"")",Chrome 72.0.3626.121,,2019-03-20 15:07:25,2019-03-20 15:07:25,0.176s,PASSED
+"selenium.click(""name=nama"")",Chrome 72.0.3626.121,,2019-03-20 15:07:25,2019-03-20 15:07:25,0.096s,PASSED
+"selenium.type(""name=nama"", ""Fadhullah"")",Chrome 72.0.3626.121,,2019-03-20 15:07:25,2019-03-20 15:07:25,0.076s,PASSED
+"selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Jl.D'])[1]/following::button[1]"")",Chrome 72.0.3626.121,,2019-03-20 15:07:25,2019-03-20 15:07:25,0.161s,PASSED
+"takeScreenshot(""C:\Program Files\Katalon\screenshoot\FinishUpdate.jpg"")",Chrome 72.0.3626.121,,2019-03-20 15:07:25,2019-03-20 15:07:26,0.357s,PASSED
+,,,,,,
+Test Cases/delete,Chrome 72.0.3626.121,,2019-03-20 15:07:26,2019-03-20 15:07:30,4.685s,PASSED
+"openBrowser(""http://localhost/sekolah/siswa.html"")",Chrome 72.0.3626.121,,2019-03-20 15:07:26,2019-03-20 15:07:29,3.357s,PASSED
+driver = getWebDriver(),Chrome 72.0.3626.121,,2019-03-20 15:07:29,2019-03-20 15:07:29,0.001s,PASSED
+"baseUrl = ""http://localhost/sekolah/siswa.html""",Chrome 72.0.3626.121,,2019-03-20 15:07:29,2019-03-20 15:07:29,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 72.0.3626.121,,2019-03-20 15:07:29,2019-03-20 15:07:29,0.027s,PASSED
+"selenium.open(""http://localhost/sekolah/siswa.html"")",Chrome 72.0.3626.121,,2019-03-20 15:07:29,2019-03-20 15:07:29,0.088s,PASSED
+"selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[2]/following::a[1]"")",Chrome 72.0.3626.121,,2019-03-20 15:07:29,2019-03-20 15:07:30,0.166s,PASSED
+"selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[3]/following::a[1]"")",Chrome 72.0.3626.121,,2019-03-20 15:07:30,2019-03-20 15:07:30,0.161s,PASSED
+"selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[4]/following::a[1]"")",Chrome 72.0.3626.121,,2019-03-20 15:07:30,2019-03-20 15:07:30,0.230s,PASSED
+"takeScreenshot(""C:\Program Files\Katalon\screenshoot\FinishDelete.jpg"")",Chrome 72.0.3626.121,,2019-03-20 15:07:30,2019-03-20 15:07:30,0.336s,PASSED

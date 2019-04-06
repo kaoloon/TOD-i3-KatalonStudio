@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Demo CRUD,Firefox 65.0,,2019-03-20 12:43:05,2019-03-20 12:43:41,36.452s,PASSED
+,,,,,,
+Test Cases/insert,Firefox 65.0,,2019-03-20 12:43:05,2019-03-20 12:43:27,21.472s,PASSED
+"openBrowser(""http://localhost/sekolah/siswa.html"")",Firefox 65.0,,2019-03-20 12:43:06,2019-03-20 12:43:11,4.761s,PASSED
+"data = findTestData(""datasiswa"")",Firefox 65.0,,2019-03-20 12:43:11,2019-03-20 12:43:11,0.643s,PASSED
+"baseUrl = ""http://localhost/sekolah/siswa.html""",Firefox 65.0,,2019-03-20 12:43:11,2019-03-20 12:43:11,0.001s,PASSED
+driver = getWebDriver(),Firefox 65.0,,2019-03-20 12:43:11,2019-03-20 12:43:11,0.007s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Firefox 65.0,,2019-03-20 12:43:11,2019-03-20 12:43:11,0.097s,PASSED
+"takeScreenshot(""C:\Program Files\Katalon\screenshoot\StartInsert.jpg"")",Firefox 65.0,,2019-03-20 12:43:11,2019-03-20 12:43:11,0.077s,PASSED
+for (def index : (0..(data.getRowNumbers() - 1))),Firefox 65.0,,2019-03-20 12:43:11,2019-03-20 12:43:27,15.306s,PASSED
+"takeScreenshot(""C:\Program Files\Katalon\screenshoot\FinishInsert.jpg"")",Firefox 65.0,,2019-03-20 12:43:27,2019-03-20 12:43:27,0.106s,PASSED
+,,,,,,
+Test Cases/update,Firefox 65.0,,2019-03-20 12:43:27,2019-03-20 12:43:35,8.596s,PASSED
+"openBrowser(""http://localhost/sekolah/siswa.html"")",Firefox 65.0,,2019-03-20 12:43:27,2019-03-20 12:43:32,4.045s,PASSED
+driver = getWebDriver(),Firefox 65.0,,2019-03-20 12:43:32,2019-03-20 12:43:32,0.000s,PASSED
+"baseUrl = ""http://localhost/sekolah/siswa.html""",Firefox 65.0,,2019-03-20 12:43:32,2019-03-20 12:43:32,0.000s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Firefox 65.0,,2019-03-20 12:43:32,2019-03-20 12:43:32,0.050s,PASSED
+"selenium.open(""http://localhost/sekolah/siswa.html"")",Firefox 65.0,,2019-03-20 12:43:32,2019-03-20 12:43:32,0.127s,PASSED
+"selenium.click(""link=Edit"")",Firefox 65.0,,2019-03-20 12:43:32,2019-03-20 12:43:32,0.200s,PASSED
+"selenium.click(""name=nama"")",Firefox 65.0,,2019-03-20 12:43:32,2019-03-20 12:43:32,0.287s,PASSED
+"selenium.type(""name=nama"", ""Fikri"")",Firefox 65.0,,2019-03-20 12:43:32,2019-03-20 12:43:32,0.131s,PASSED
+"selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Jl.G'])[1]/following::button[1]"")",Firefox 65.0,,2019-03-20 12:43:32,2019-03-20 12:43:33,0.301s,PASSED
+"selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Jl.F'])[1]/following::a[1]"")",Firefox 65.0,,2019-03-20 12:43:33,2019-03-20 12:43:33,0.156s,PASSED
+"selenium.click(""name=nama"")",Firefox 65.0,,2019-03-20 12:43:33,2019-03-20 12:43:33,0.380s,PASSED
+"selenium.type(""name=nama"", ""Andre"")",Firefox 65.0,,2019-03-20 12:43:33,2019-03-20 12:43:33,0.100s,PASSED
+"selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Jl.F'])[1]/following::button[1]"")",Firefox 65.0,,2019-03-20 12:43:33,2019-03-20 12:43:34,0.305s,PASSED
+"selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Jl.E'])[1]/following::a[1]"")",Firefox 65.0,,2019-03-20 12:43:34,2019-03-20 12:43:34,0.231s,PASSED
+"selenium.click(""name=nama"")",Firefox 65.0,,2019-03-20 12:43:34,2019-03-20 12:43:34,0.312s,PASSED
+"selenium.type(""name=nama"", ""Andre"")",Firefox 65.0,,2019-03-20 12:43:34,2019-03-20 12:43:34,0.133s,PASSED
+"selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Jl.E'])[1]/following::button[1]"")",Firefox 65.0,,2019-03-20 12:43:34,2019-03-20 12:43:35,0.308s,PASSED
+"selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Jl.D'])[1]/following::a[1]"")",Firefox 65.0,,2019-03-20 12:43:35,2019-03-20 12:43:35,0.170s,PASSED
+"selenium.click(""name=nama"")",Firefox 65.0,,2019-03-20 12:43:35,2019-03-20 12:43:35,0.282s,PASSED
+"selenium.type(""name=nama"", ""Fadhullah"")",Firefox 65.0,,2019-03-20 12:43:35,2019-03-20 12:43:35,0.158s,PASSED
+"selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Jl.D'])[1]/following::button[1]"")",Firefox 65.0,,2019-03-20 12:43:35,2019-03-20 12:43:35,0.173s,PASSED
+"takeScreenshot(""C:\Program Files\Katalon\screenshoot\FinishUpdate.jpg"")",Firefox 65.0,,2019-03-20 12:43:35,2019-03-20 12:43:35,0.091s,PASSED
+,,,,,,
+Test Cases/delete,Firefox 65.0,,2019-03-20 12:43:35,2019-03-20 12:43:41,5.233s,PASSED
+"openBrowser(""http://localhost/sekolah/siswa.html"")",Firefox 65.0,,2019-03-20 12:43:36,2019-03-20 12:43:40,3.991s,PASSED
+driver = getWebDriver(),Firefox 65.0,,2019-03-20 12:43:40,2019-03-20 12:43:40,0.001s,PASSED
+"baseUrl = ""http://localhost/sekolah/siswa.html""",Firefox 65.0,,2019-03-20 12:43:40,2019-03-20 12:43:40,0.000s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Firefox 65.0,,2019-03-20 12:43:40,2019-03-20 12:43:40,0.041s,PASSED
+"selenium.open(""http://localhost/sekolah/siswa.html"")",Firefox 65.0,,2019-03-20 12:43:40,2019-03-20 12:43:40,0.132s,PASSED
+"selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[2]/following::a[1]"")",Firefox 65.0,,2019-03-20 12:43:40,2019-03-20 12:43:40,0.255s,PASSED
+"selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[3]/following::a[1]"")",Firefox 65.0,,2019-03-20 12:43:40,2019-03-20 12:43:40,0.197s,PASSED
+"selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[4]/following::a[1]"")",Firefox 65.0,,2019-03-20 12:43:40,2019-03-20 12:43:41,0.167s,PASSED
+"takeScreenshot(""C:\Program Files\Katalon\screenshoot\FinishDelete.jpg"")",Firefox 65.0,,2019-03-20 12:43:41,2019-03-20 12:43:41,0.079s,PASSED

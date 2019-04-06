@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Demo CRUD" time="25" tests="3" failures="0" errors="0">
+   <testsuite name="Demo CRUD" tests="3" failures="0" errors="0" time="25" timestamp="2019-03-20 14:51:57" hostname="Pieter Daud - DESKTOP-TSK39O8" id="Test Suites/Demo CRUD">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Pieter Daud\\Katalon Studio\\Automate Test POS Apps\\Reports\\Demo CRUD\\20190320_145150"/>
+         <property name="logFiles" value="C:\\Users\\Pieter Daud\\Katalon Studio\\Automate Test POS Apps\\Reports\\Demo CRUD\\20190320_145150\\execution0.log"/>
+         <property name="attachments" value="C:\\Program Files\\Katalon\\screenshoot\\StartInsert.jpg, C:\\Program Files\\Katalon\\screenshoot\\FinishInsert.jpg, C:\\Program Files\\Katalon\\screenshoot\\FinishUpdate.jpg, C:\\Program Files\\Katalon\\screenshoot\\FinishDelete.jpg"/>
+         <property name="hostName" value="Pieter Daud - DESKTOP-TSK39O8"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.4.7"/>
+         <property name="browser" value="Chrome 72.0.3626.121"/>
+         <property name="hostAddress" value="192.168.44.1"/>
+         <property name="sessionId" value="baa810f70fc8ab9abbc0bdf66b8ddec2"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/insert" classname="Test Cases/insert" status="PASSED">
+         <system-out><![CDATA[2019-03-20 14:51:57 - [TEST_CASE][PASSED] - Test Cases/insert: Test Cases/insert
+
+2019-03-20 14:51:58 - [TEST_STEP][PASSED] - openBrowser("http://localhost/sekolah/siswa.html"): Browser is opened with url: 'http://localhost/sekolah/siswa.html'
+
+2019-03-20 14:51:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-20 14:51:58 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-20 14:52:02 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost/sekolah/siswa.html'
+
+2019-03-20 14:52:02 - [TEST_STEP][PASSED] - data = findTestData("datasiswa"): null
+
+2019-03-20 14:52:03 - [TEST_STEP][PASSED] - baseUrl = "http://localhost/sekolah/siswa.html": null
+
+2019-03-20 14:52:03 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-03-20 14:52:03 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2019-03-20 14:52:03 - [TEST_STEP][PASSED] - takeScreenshot("C:\Program Files\Katalon\screenshoot\StartInsert.jpg"): Taking screenshot successfully
+
+2019-03-20 14:52:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Program Files\\Katalon\\screenshoot\\StartInsert.jpg]]
+
+2019-03-20 14:52:03 - [TEST_STEP][PASSED] - for (def index : (0..(data.getRowNumbers() - 1))): null
+
+2019-03-20 14:52:03 - [TEST_STEP][PASSED] - selenium.click("link=Tambah"): null
+
+2019-03-20 14:52:03 - [TEST_STEP][PASSED] - selenium.click("name=nama"): null
+
+2019-03-20 14:52:04 - [TEST_STEP][PASSED] - selenium.type("name=nama", data.internallyGetValue("nama", index)): null
+
+2019-03-20 14:52:04 - [TEST_STEP][PASSED] - selenium.click("name=jenis_kelamin"): null
+
+2019-03-20 14:52:04 - [TEST_STEP][PASSED] - selenium.type("name=jenis_kelamin", data.internallyGetValue("jenis_kelamin", index)): null
+
+2019-03-20 14:52:04 - [TEST_STEP][PASSED] - selenium.click("name=telepon"): null
+
+2019-03-20 14:52:04 - [TEST_STEP][PASSED] - selenium.type("name=telepon", data.internallyGetValue("telepon", index)): null
+
+2019-03-20 14:52:04 - [TEST_STEP][PASSED] - selenium.click("name=alamat"): null
+
+2019-03-20 14:52:04 - [TEST_STEP][PASSED] - selenium.type("name=alamat", data.internallyGetValue("alamat", index)): null
+
+2019-03-20 14:52:04 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Alamat'])[1]/following::button[1]"): null
+
+2019-03-20 14:52:05 - [TEST_STEP][PASSED] - selenium.click("link=Tambah"): null
+
+2019-03-20 14:52:05 - [TEST_STEP][PASSED] - selenium.click("name=nama"): null
+
+2019-03-20 14:52:05 - [TEST_STEP][PASSED] - selenium.type("name=nama", data.internallyGetValue("nama", index)): null
+
+2019-03-20 14:52:05 - [TEST_STEP][PASSED] - selenium.click("name=jenis_kelamin"): null
+
+2019-03-20 14:52:05 - [TEST_STEP][PASSED] - selenium.type("name=jenis_kelamin", data.internallyGetValue("jenis_kelamin", index)): null
+
+2019-03-20 14:52:05 - [TEST_STEP][PASSED] - selenium.click("name=telepon"): null
+
+2019-03-20 14:52:05 - [TEST_STEP][PASSED] - selenium.type("name=telepon", data.internallyGetValue("telepon", index)): null
+
+2019-03-20 14:52:05 - [TEST_STEP][PASSED] - selenium.click("name=alamat"): null
+
+2019-03-20 14:52:05 - [TEST_STEP][PASSED] - selenium.type("name=alamat", data.internallyGetValue("alamat", index)): null
+
+2019-03-20 14:52:05 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Alamat'])[1]/following::button[1]"): null
+
+2019-03-20 14:52:06 - [TEST_STEP][PASSED] - selenium.click("link=Tambah"): null
+
+2019-03-20 14:52:06 - [TEST_STEP][PASSED] - selenium.click("name=nama"): null
+
+2019-03-20 14:52:06 - [TEST_STEP][PASSED] - selenium.type("name=nama", data.internallyGetValue("nama", index)): null
+
+2019-03-20 14:52:06 - [TEST_STEP][PASSED] - selenium.click("name=jenis_kelamin"): null
+
+2019-03-20 14:52:06 - [TEST_STEP][PASSED] - selenium.type("name=jenis_kelamin", data.internallyGetValue("jenis_kelamin", index)): null
+
+2019-03-20 14:52:06 - [TEST_STEP][PASSED] - selenium.click("name=telepon"): null
+
+2019-03-20 14:52:06 - [TEST_STEP][PASSED] - selenium.type("name=telepon", data.internallyGetValue("telepon", index)): null
+
+2019-03-20 14:52:06 - [TEST_STEP][PASSED] - selenium.click("name=alamat"): null
+
+2019-03-20 14:52:06 - [TEST_STEP][PASSED] - selenium.type("name=alamat", data.internallyGetValue("alamat", index)): null
+
+2019-03-20 14:52:07 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Alamat'])[1]/following::button[1]"): null
+
+2019-03-20 14:52:07 - [TEST_STEP][PASSED] - selenium.click("link=Tambah"): null
+
+2019-03-20 14:52:07 - [TEST_STEP][PASSED] - selenium.click("name=nama"): null
+
+2019-03-20 14:52:07 - [TEST_STEP][PASSED] - selenium.type("name=nama", data.internallyGetValue("nama", index)): null
+
+2019-03-20 14:52:07 - [TEST_STEP][PASSED] - selenium.click("name=jenis_kelamin"): null
+
+2019-03-20 14:52:07 - [TEST_STEP][PASSED] - selenium.type("name=jenis_kelamin", data.internallyGetValue("jenis_kelamin", index)): null
+
+2019-03-20 14:52:07 - [TEST_STEP][PASSED] - selenium.click("name=telepon"): null
+
+2019-03-20 14:52:07 - [TEST_STEP][PASSED] - selenium.type("name=telepon", data.internallyGetValue("telepon", index)): null
+
+2019-03-20 14:52:07 - [TEST_STEP][PASSED] - selenium.click("name=alamat"): null
+
+2019-03-20 14:52:07 - [TEST_STEP][PASSED] - selenium.type("name=alamat", data.internallyGetValue("alamat", index)): null
+
+2019-03-20 14:52:08 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Alamat'])[1]/following::button[1]"): null
+
+2019-03-20 14:52:08 - [TEST_STEP][PASSED] - selenium.click("link=Tambah"): null
+
+2019-03-20 14:52:08 - [TEST_STEP][PASSED] - selenium.click("name=nama"): null
+
+2019-03-20 14:52:08 - [TEST_STEP][PASSED] - selenium.type("name=nama", data.internallyGetValue("nama", index)): null
+
+2019-03-20 14:52:08 - [TEST_STEP][PASSED] - selenium.click("name=jenis_kelamin"): null
+
+2019-03-20 14:52:08 - [TEST_STEP][PASSED] - selenium.type("name=jenis_kelamin", data.internallyGetValue("jenis_kelamin", index)): null
+
+2019-03-20 14:52:08 - [TEST_STEP][PASSED] - selenium.click("name=telepon"): null
+
+2019-03-20 14:52:08 - [TEST_STEP][PASSED] - selenium.type("name=telepon", data.internallyGetValue("telepon", index)): null
+
+2019-03-20 14:52:08 - [TEST_STEP][PASSED] - selenium.click("name=alamat"): null
+
+2019-03-20 14:52:09 - [TEST_STEP][PASSED] - selenium.type("name=alamat", data.internallyGetValue("alamat", index)): null
+
+2019-03-20 14:52:09 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Alamat'])[1]/following::button[1]"): null
+
+2019-03-20 14:52:09 - [TEST_STEP][PASSED] - selenium.click("link=Tambah"): null
+
+2019-03-20 14:52:09 - [TEST_STEP][PASSED] - selenium.click("name=nama"): null
+
+2019-03-20 14:52:09 - [TEST_STEP][PASSED] - selenium.type("name=nama", data.internallyGetValue("nama", index)): null
+
+2019-03-20 14:52:09 - [TEST_STEP][PASSED] - selenium.click("name=jenis_kelamin"): null
+
+2019-03-20 14:52:09 - [TEST_STEP][PASSED] - selenium.type("name=jenis_kelamin", data.internallyGetValue("jenis_kelamin", index)): null
+
+2019-03-20 14:52:09 - [TEST_STEP][PASSED] - selenium.click("name=telepon"): null
+
+2019-03-20 14:52:09 - [TEST_STEP][PASSED] - selenium.type("name=telepon", data.internallyGetValue("telepon", index)): null
+
+2019-03-20 14:52:09 - [TEST_STEP][PASSED] - selenium.click("name=alamat"): null
+
+2019-03-20 14:52:10 - [TEST_STEP][PASSED] - selenium.type("name=alamat", data.internallyGetValue("alamat", index)): null
+
+2019-03-20 14:52:10 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Alamat'])[1]/following::button[1]"): null
+
+2019-03-20 14:52:10 - [TEST_STEP][PASSED] - selenium.click("link=Tambah"): null
+
+2019-03-20 14:52:10 - [TEST_STEP][PASSED] - selenium.click("name=nama"): null
+
+2019-03-20 14:52:10 - [TEST_STEP][PASSED] - selenium.type("name=nama", data.internallyGetValue("nama", index)): null
+
+2019-03-20 14:52:10 - [TEST_STEP][PASSED] - selenium.click("name=jenis_kelamin"): null
+
+2019-03-20 14:52:10 - [TEST_STEP][PASSED] - selenium.type("name=jenis_kelamin", data.internallyGetValue("jenis_kelamin", index)): null
+
+2019-03-20 14:52:10 - [TEST_STEP][PASSED] - selenium.click("name=telepon"): null
+
+2019-03-20 14:52:10 - [TEST_STEP][PASSED] - selenium.type("name=telepon", data.internallyGetValue("telepon", index)): null
+
+2019-03-20 14:52:10 - [TEST_STEP][PASSED] - selenium.click("name=alamat"): null
+
+2019-03-20 14:52:11 - [TEST_STEP][PASSED] - selenium.type("name=alamat", data.internallyGetValue("alamat", index)): null
+
+2019-03-20 14:52:11 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Alamat'])[1]/following::button[1]"): null
+
+2019-03-20 14:52:11 - [TEST_STEP][PASSED] - takeScreenshot("C:\Program Files\Katalon\screenshoot\FinishInsert.jpg"): Taking screenshot successfully
+
+2019-03-20 14:52:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Program Files\\Katalon\\screenshoot\\FinishInsert.jpg]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/update" classname="Test Cases/update" status="PASSED">
+         <system-out><![CDATA[2019-03-20 14:52:11 - [TEST_CASE][PASSED] - Test Cases/update: Test Cases/update
+
+2019-03-20 14:52:11 - [TEST_STEP][PASSED] - openBrowser("http://localhost/sekolah/siswa.html"): Browser is opened with url: 'http://localhost/sekolah/siswa.html'
+
+2019-03-20 14:52:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-20 14:52:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-20 14:52:15 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost/sekolah/siswa.html'
+
+2019-03-20 14:52:15 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-03-20 14:52:15 - [TEST_STEP][PASSED] - baseUrl = "http://localhost/sekolah/siswa.html": null
+
+2019-03-20 14:52:15 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2019-03-20 14:52:15 - [TEST_STEP][PASSED] - selenium.open("http://localhost/sekolah/siswa.html"): null
+
+2019-03-20 14:52:15 - [TEST_STEP][PASSED] - selenium.click("link=Edit"): null
+
+2019-03-20 14:52:15 - [TEST_STEP][PASSED] - selenium.click("name=nama"): null
+
+2019-03-20 14:52:15 - [TEST_STEP][PASSED] - selenium.type("name=nama", "Fikri"): null
+
+2019-03-20 14:52:15 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Jl.G'])[1]/following::button[1]"): null
+
+2019-03-20 14:52:16 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Jl.F'])[1]/following::a[1]"): null
+
+2019-03-20 14:52:16 - [TEST_STEP][PASSED] - selenium.click("name=nama"): null
+
+2019-03-20 14:52:16 - [TEST_STEP][PASSED] - selenium.type("name=nama", "Andre"): null
+
+2019-03-20 14:52:16 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Jl.F'])[1]/following::button[1]"): null
+
+2019-03-20 14:52:16 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Jl.E'])[1]/following::a[1]"): null
+
+2019-03-20 14:52:16 - [TEST_STEP][PASSED] - selenium.click("name=nama"): null
+
+2019-03-20 14:52:16 - [TEST_STEP][PASSED] - selenium.type("name=nama", "Andre"): null
+
+2019-03-20 14:52:17 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Jl.E'])[1]/following::button[1]"): null
+
+2019-03-20 14:52:17 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Jl.D'])[1]/following::a[1]"): null
+
+2019-03-20 14:52:17 - [TEST_STEP][PASSED] - selenium.click("name=nama"): null
+
+2019-03-20 14:52:17 - [TEST_STEP][PASSED] - selenium.type("name=nama", "Fadhullah"): null
+
+2019-03-20 14:52:17 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Jl.D'])[1]/following::button[1]"): null
+
+2019-03-20 14:52:17 - [TEST_STEP][PASSED] - takeScreenshot("C:\Program Files\Katalon\screenshoot\FinishUpdate.jpg"): Taking screenshot successfully
+
+2019-03-20 14:52:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Program Files\\Katalon\\screenshoot\\FinishUpdate.jpg]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/delete" classname="Test Cases/delete" status="PASSED">
+         <system-out><![CDATA[2019-03-20 14:52:18 - [TEST_CASE][PASSED] - Test Cases/delete: Test Cases/delete
+
+2019-03-20 14:52:18 - [TEST_STEP][PASSED] - openBrowser("http://localhost/sekolah/siswa.html"): Browser is opened with url: 'http://localhost/sekolah/siswa.html'
+
+2019-03-20 14:52:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-20 14:52:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-20 14:52:21 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost/sekolah/siswa.html'
+
+2019-03-20 14:52:21 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-03-20 14:52:21 - [TEST_STEP][PASSED] - baseUrl = "http://localhost/sekolah/siswa.html": null
+
+2019-03-20 14:52:21 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2019-03-20 14:52:21 - [TEST_STEP][PASSED] - selenium.open("http://localhost/sekolah/siswa.html"): null
+
+2019-03-20 14:52:21 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[2]/following::a[1]"): null
+
+2019-03-20 14:52:21 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[3]/following::a[1]"): null
+
+2019-03-20 14:52:22 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[4]/following::a[1]"): null
+
+2019-03-20 14:52:22 - [TEST_STEP][PASSED] - takeScreenshot("C:\Program Files\Katalon\screenshoot\FinishDelete.jpg"): Taking screenshot successfully
+
+2019-03-20 14:52:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Program Files\\Katalon\\screenshoot\\FinishDelete.jpg]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-20 14:51:57 - [TEST_SUITE][PASSED] - Demo CRUD: Test Cases/delete]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

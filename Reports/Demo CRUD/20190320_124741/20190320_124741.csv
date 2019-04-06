@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Demo CRUD,Firefox 65.0,,2019-03-20 12:47:48,2019-03-20 12:48:15,26.634s,ERROR
+,,,,,,
+Test Cases/insert,Firefox 65.0,,2019-03-20 12:47:48,2019-03-20 12:48:09,20.896s,ERROR
+"openBrowser(""http://localhost/sekolah/siswa.html"")",Firefox 65.0,,2019-03-20 12:47:49,2019-03-20 12:47:54,4.825s,PASSED
+"data = findTestData(""datasiswa"")",Firefox 65.0,,2019-03-20 12:47:54,2019-03-20 12:47:55,0.796s,PASSED
+"baseUrl = ""http://localhost/sekolah/siswa.html""",Firefox 65.0,,2019-03-20 12:47:55,2019-03-20 12:47:55,0.001s,PASSED
+driver = getWebDriver(),Firefox 65.0,,2019-03-20 12:47:55,2019-03-20 12:47:55,0.008s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Firefox 65.0,,2019-03-20 12:47:55,2019-03-20 12:47:55,0.137s,PASSED
+"takeScreenshot(""C:\Program Files\Katalon\screenshoot\StartInsert.jpg"")",Firefox 65.0,,2019-03-20 12:47:55,2019-03-20 12:47:55,0.095s,PASSED
+for (def index : (0..(data.getRowNumbers() - 1))),Firefox 65.0,,2019-03-20 12:47:55,2019-03-20 12:48:09,14.283s,ERROR
+,,,,,,
+Test Cases/update,Firefox 65.0,,2019-03-20 12:48:09,2019-03-20 12:48:10,0.467s,FAILED
+"openBrowser(""http://localhost/sekolah/siswa.html"")",Firefox 65.0,,2019-03-20 12:48:10,2019-03-20 12:48:10,0.074s,FAILED
+,,,,,,
+Test Cases/delete,Firefox 65.0,,2019-03-20 12:48:10,2019-03-20 12:48:14,4.009s,PASSED
+"openBrowser(""http://localhost/sekolah/siswa.html"")",Firefox 65.0,,2019-03-20 12:48:10,2019-03-20 12:48:13,2.638s,PASSED
+driver = getWebDriver(),Firefox 65.0,,2019-03-20 12:48:13,2019-03-20 12:48:13,0.000s,PASSED
+"baseUrl = ""http://localhost/sekolah/siswa.html""",Firefox 65.0,,2019-03-20 12:48:13,2019-03-20 12:48:13,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Firefox 65.0,,2019-03-20 12:48:13,2019-03-20 12:48:13,0.043s,PASSED
+"selenium.open(""http://localhost/sekolah/siswa.html"")",Firefox 65.0,,2019-03-20 12:48:13,2019-03-20 12:48:13,0.135s,PASSED
+"selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[2]/following::a[1]"")",Firefox 65.0,,2019-03-20 12:48:13,2019-03-20 12:48:13,0.186s,PASSED
+"selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[3]/following::a[1]"")",Firefox 65.0,,2019-03-20 12:48:13,2019-03-20 12:48:13,0.228s,PASSED
+"selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[4]/following::a[1]"")",Firefox 65.0,,2019-03-20 12:48:13,2019-03-20 12:48:14,0.306s,PASSED
+"takeScreenshot(""C:\Program Files\Katalon\screenshoot\FinishDelete.jpg"")",Firefox 65.0,,2019-03-20 12:48:14,2019-03-20 12:48:14,0.098s,PASSED
