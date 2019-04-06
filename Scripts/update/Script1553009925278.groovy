@@ -28,11 +28,11 @@ import static org.junit.Assert.*
 import java.util.regex.Pattern
 import static org.apache.commons.lang3.StringUtils.join
 
-WebUI.openBrowser('http://localhost/sekolah/siswa.html')
+WebUI.openBrowser('http://192.168.1.104/sekolah/siswa.html')
 def driver = DriverFactory.getWebDriver()
-String baseUrl = "http://localhost/sekolah/siswa.html"
+String baseUrl = "http://192.168.1.104/sekolah/siswa.html"
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
-selenium.open("http://localhost/sekolah/siswa.html")
+selenium.open("http://192.168.1.104/sekolah/siswa.html")
 selenium.click("link=Edit")
 selenium.click("name=nama")
 selenium.type("name=nama", "Fikri")
